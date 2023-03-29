@@ -10,7 +10,7 @@ body {
 
 }
 
-.header, .row1 {
+.header, .row1, .footer {
  display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +26,7 @@ padding-left: 120px;
 }
 
 .row1 {
- padding-bottom: 48px;
+ padding-bottom: 120px;
 }
 
 .logo { 
@@ -34,9 +34,10 @@ padding-left: 120px;
   font-size: 24px; 
 }
 
-.links {
+ul {
   display: flex;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
   list-style: none;
 }
@@ -72,6 +73,64 @@ padding-left: 120px;
   flex-direction: column;
 }
 
+.row2, .row3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 80px;
+padding-top: 80px;
+}
+
+.row2 {
+  padding-top: 0;
+}
+
+.heading2 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+.imageslist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; 
+}
+
+.subText {
+  text-align: center;
+}
+
+.smallimg {
+  align-self: center;
+ height: 100px;
+  width: 100px;
+  border: 3px solid #3882F6;
+  border-radius: 8px;
+}
+
+.row3 {
+  background-color: #E5E7EB; 
+}
+
+.quote {
+  color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quoteBy {
+  align-self: flex-end;
+  font-weight: 600;
+}
+
 .footer {
   display: flex;
+  height: 60px;
+  justify-content: center;
 }
