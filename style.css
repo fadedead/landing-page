@@ -10,7 +10,7 @@ body {
 
 }
 
-.header, .row1, .footer {
+.header, .row1, .footer{
  display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,9 +49,9 @@ ul {
   margin: 0;
 }
 
-.hsignup {
+.hsignup, .hsignup2 {
   border: 0;
-  background-color: #3882f6;
+  background-color: #3882F6;
   height: 35px;
   width: 110px;
   border-radius: 8px;
@@ -127,6 +127,42 @@ padding-top: 80px;
 .quoteBy {
   align-self: flex-end;
   font-weight: 600;
+}
+
+.row4{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 120px;
+} 
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  background-color: #3882F6;
+  height: 150px;
+  width: 100%;
+  border-radius: 8px;
+  gap: 24px;
+  padding: 24px;
+}
+
+.actionText {
+ color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.subTextW {
+  color: #F9FAF8;
+  font-size: 18px;
+
+}
+
+.hsignup2 {
+  border: 2px solid #F9FAF8 ;
 }
 
 .footer {
